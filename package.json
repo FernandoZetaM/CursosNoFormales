@@ -1,0 +1,14 @@
+{
+  "name": "primeraentrega",
+  "version": "1.0.0",
+  "description": "Primer trabajo para el curso node.js",
+  "main": "primeraEntrega.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando danferyno@yahoo.com.ar",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^13.2.2"
+  }
+}
