@@ -44,7 +44,7 @@ else {
         console.log(contenidoArchivo);
 
         // registrar en archivo
-        fs.writeFile('inscritos.txt', contenidoArchivo, err => {
+        fs.writeFile( `Inscripcion - ${argv.n}.txt`, contenidoArchivo, err => {
             if (err) throw (err);
 
             console.log('Archivo creado con éxito.');
